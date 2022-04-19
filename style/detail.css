@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/images/LogoDPM.png);
+}
+
+#navbar {
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+
+}
+
+#navbar .nav-item :hover {
+    border-bottom: 3px solid white;
+}
+
+#pengurus .card {
+    width: 250px;
+    text-align: center;
+}
+
+#pengurus .row a {
+    text-decoration: none;
+    
+}
+
+th, td {
+    padding: 10px 5px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.pengurus-thumbnail .pengurus-nama {
+    color: #52daea;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pengurus-thumbnail .divisi-nama {
+    color: #52daea;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pengurus-thumbnail .jabatan-nama {
+    color: #52daea;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+.row {
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: inline-grid;
+flex-wrap: wrap;
+margin-top: calc(-1 * var(--bs-gutter-y));
+margin-right: calc(-.5 * var(--bs-gutter-x));
+margin-left: calc(-.5 * var(--bs-gutter-x));
+}
